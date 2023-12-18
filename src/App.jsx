@@ -1,7 +1,10 @@
+import { Outlet } from "react-router-dom"
+
 function App() {
   return (
     <>
-      coaca
+      <header><h1>Header potente</h1></header>
+      <Outlet />
     </>
   )
 }
