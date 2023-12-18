@@ -1,5 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-100:#6c35de;
+  --primary-200:#a364ff;
+  --primary-300:#ffc7ff;
+  --accent-100:#cb80ff;
+  --accent-200:#373737;
+  --text-100:#ffffff;
+  --text-200:#e0e0e0;
+  --bg-100:#241b35;
+  --bg-200:#342a45;
+  --bg-300:#4d425f;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100vh;
+  background-color: var(--text-200);
+  color: white;
+  font-family: Inter;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
